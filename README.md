@@ -1,5 +1,5 @@
 ## Vienna Bakery Website (Drupal) | 2023
-*Built as part of project work for Msc. (CA) - SICSR.* <br><br>
+*Built as part of Design of Content Management System (DCMS) subject project work for Msc. (CA) - SICSR.* <br><br>
 
 This is a bakery website built using Drupal 10. It uses the Zuvi (Dark) theme and includes both custom and contributed modules.
 

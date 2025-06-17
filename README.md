@@ -1,46 +1,60 @@
-# Vienna Bakery Website (Drupal)
-![Drupal Logo](https://www.drupal.org/files/Wordmark_blue_RGB.png)
+## Vienna Bakery Website (Drupal) | 2023
+*Built as part of project work for Msc. (CA) - SICSR.* <br><br>
 
 This is a bakery website built using Drupal 10. It uses the Zuvi (Dark) theme and includes both custom and contributed modules.
 
 **Drupal Version:** 10.0.0.9  
+
 **Theme:** Zuvi (Dark)  
+
 **Contributed Modules:** Commerce, Editorial Calendar, Webform  
+
 **Custom Modules:** Login, Reviews  
-**Views:** Products (Cakes, Pastries, Cookies), plus some practice modules like student admission.
 
-## Screenshots
+**Views:** Products (Cakes, Pastries, Cookies), plus some practice modules.
 
-- #### ![Components](/screenshots/components.png)  
+### Screenshots
 
-- #### ![Homepage](/screenshots/homepage.png)  
-*Homepage showcasing featured bakery products.*
+- #### Components
+  ![Components](screenshots/components.PNG)
 
-- #### ![Login](/screenshots//login.png)  
+- #### Homepage
+  *Homepage showcasing featured bakery products.*
+  ![Homepage](/screenshots/homepage.PNG)  
 
-- #### ![Pastries](/screenshots/pastries.png)  
+- #### Login
+  ![Login](/screenshots//login.PNG)  
 
-- #### ![Cakes](/screenshots/cakes.png)  
+- #### Pastries
+  *Product listing view with cakes, pastries, and cookies.*
+  ![Pastries](/screenshots/pastries.PNG)  
 
-- #### ![Cookies](/screenshots/cookies.png)  
+- #### Cakes
+  ![Cakes](/screenshots/cakes.PNG)  
 
-*Product listing view with cakes, pastries, and cookies.*
+- #### Cookies
+  ![Cookies](/screenshots/cookies.PNG)  
 
-- #### ![Shopping Cart](/screenshots/cart.png)  
+- #### Shopping Cart
+  ![Shopping Cart](/screenshots/cart.PNG)  
 
-- #### ![Order Info](/screenshots/order-info.png)  
+- #### Order Info
+  ![Order Info](/screenshots/order-info.PNG)  
 
-- #### ![Review Order](/screenshots/review-order.png)  
+- #### Review Order
+  ![Review Order](/screenshots/review-order.PNG)  
 
-- #### ![Order Confirmation](/screenshots/order-confirmation.png)  
+- #### Order Confirmation
+  ![Order Confirmation](/screenshots/order-confirmation.PNG)  
 
-- #### ![Your Review](/screenshots/your-review.png)  
+- #### Your Review
+  ![Your Review](/screenshots/your-review.PNG)  
 
-- #### ![Your Review](/screenshots/your-review.png)
+- #### Custom Module Review
+  ![Custom Module Review](/screenshots/custom-review.PNG)
 
-- #### ![Custom Module Review](/screenshots/custom-review.png)
-
-- #### ![About Us](/screenshots/about-us.png)  
+- #### About Us
+  ![About Us](/screenshots/about-us.PNG)  
 
 
 Built with Drupal — an open-source content management platform. For more info, visit [Drupal.org](https://www.drupal.org).

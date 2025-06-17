@@ -1,0 +1,14 @@
+dn_students.add_student:
+  path: '/students/add'
+  defaults:
+    _title: 'Add Students'
+    _form: '\Drupal\dn_students\Form\StudentForm'
+  requirements:
+    _access: 'TRUE'
+
+dn_students.showdata:
+  path: '/students/list'
+  defaults: 
+    _controller: '\Drupal\dn_students\Controller\StudentController::showdata'
+  requirements:
+    _permission: 'access content'

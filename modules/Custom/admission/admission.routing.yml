@@ -1,0 +1,14 @@
+admission.add_admission:
+  path: '/admission/add'
+  defaults:
+    _title: 'Add Admission'
+    _form: '\Drupal\admision\Form\AdmissionForm'
+  requirements:
+    _access: 'TRUE'
+
+admission.showdata:
+  path: '/admission/list'
+  defaults: 
+    _controller: '\Drupal\admission\Controller\AdmissionController::showdata'
+  requirements:
+    _permission: 'access content'

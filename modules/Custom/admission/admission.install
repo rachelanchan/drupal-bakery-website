@@ -1,0 +1,99 @@
+<?php
+use Drupal\Core\Database\Database;
+ 
+/**
+ * Implements hook_schema().
+ */
+function admission_schema(){
+    $schema['admission'] = array(
+        'description' => 'The table for storing the admission data.',
+        'fields' => array(
+            'id' => array(
+                'description' => 'The primary identifier for admission',
+                'type' => 'serial',
+                'not null' => TRUE,
+                'unsigned' => TRUE,
+            ),
+            'fname' => array(
+                'description' => 'Student First Name',
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+            ),
+           'sname' => array(
+                'description' => 'Student Second Name.',
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+            ),
+            'gender' => array(
+                'description' => 'Student Gender',
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE, 
+            ),
+
+            'email' => array(
+                'description' => 'Student Email',
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+            ),
+
+            'mobile' => array(
+                'description' => 'Student Mobile No',
+                'type' => 'int',
+                'length' => 10,
+                'not null' => TRUE,
+            ),
+
+            'address' => array(
+                'description' => 'Student's Address No',
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+            ),
+
+            'doa' => array(
+                'description' => 'Student's Date of Admission',
+                'type' => 'date',
+                'not null' => TRUE,
+            ),
+
+
+
+            'mother_name' => array(
+                'description' => 'Student's Mother's Name',
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+            ),
+
+            'mother_mobile' => array(
+                'description' => 'Mother's Mobile No',
+                'type' => 'int',
+                'length' => 10,
+                'not null' => TRUE,
+            ),
+
+            'father_name' => array(
+                'description' => 'Student's Father's Name',
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+            ),
+
+            'father_mobile' => array(
+                'description' => 'Father's Mobile No',
+                'type' => 'int',
+                'length' => 10,
+                'not null' => TRUE,
+            ),
+            
+        ),
+        'primary key' => array('id'),
+    );
+    return $schema;
+}

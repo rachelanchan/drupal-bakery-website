@@ -1,0 +1,24 @@
+# Ignore Composer dependencies
+/vendor/
+
+# Ignore sensitive site configuration
+/sites/*/settings*.php
+/sites/*/services*.yml
+
+# Ignore uploaded and private files
+/sites/*/files
+/sites/*/private
+
+# Ignore Drupal core (if managing with Composer externally)
+core/
+
+# Ignore environment files
+.env
+.env.local
+
+# Ignore IDE and OS files
+*.log
+*.DS_Store
+Thumbs.db
+.idea/
+.vscode/

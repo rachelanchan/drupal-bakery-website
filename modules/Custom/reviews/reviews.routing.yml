@@ -1,0 +1,14 @@
+reviews.add_review:
+  path: '/reviews/add'
+  defaults:
+    _title: 'Add Reviews'
+    _form: '\Drupal\reviews\Form\ReviewsForm'
+  requirements:
+    _access: 'TRUE'
+
+reviews.showdata:
+  path: '/reviews/list'
+  defaults: 
+    _controller: '\Drupal\reviews\Controller\ReviewsController::showdata'
+  requirements:
+    _permission: 'access content'
